@@ -20,7 +20,7 @@ class Staff::Authenticator
       @alert = 'アカウントが停止されています。'
     elsif @staff_member.start_date > Date.today
       @alert = 'アカウントの有効期限が未到来です。'
-    elsif (!@staff_member.end_date.nil? || @staff_member.end_date <= Date.today)
+    elsif (!@staff_member.end_date.nil? && @staff_member.end_date <= Date.today)
       @alert = 'アカウントの有効期限が過ぎています。'
     end
   end

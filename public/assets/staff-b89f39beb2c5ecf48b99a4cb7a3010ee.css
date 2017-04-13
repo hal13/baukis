@@ -1,0 +1,177 @@
+@charset "UTF-8";/* line 4, /home/vagrant/tmp/baukis/app/assets/stylesheets/shared/errors.css.scss */
+div#error {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 4px #666666;
+  background-color: lighter(#666666, 25%);
+  text-align: center;
+}
+/* line 12, /home/vagrant/tmp/baukis/app/assets/stylesheets/shared/errors.css.scss */
+div#error p.url {
+  font-family: monospace;
+}
+
+/*  グレー系  */
+/*  シアン系  */
+/*  赤系  */
+/*  緑系  */
+
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+
+/*  グレー系  */
+/*  シアン系  */
+/*  赤系  */
+/*  緑系  */
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+/* line 6, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/container.css.scss */
+div#wrapper div#container h1 {
+  margin: 0;
+  padding: 9px 6px;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #1a3333;
+  color: #eeeeee;
+}
+
+/*  グレー系  */
+/*  シアン系  */
+/*  赤系  */
+/*  緑系  */
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+/* line 5, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/flash.css.scss */
+header span.notice, header span.alert {
+  display: inline-block;
+  padding: 2px 6px;
+  margin: 0 10px;
+  font-size: 8px;
+  color: #fafafa;
+}
+/* line 13, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/flash.css.scss */
+header span.notice {
+  background-color: #00cc00;
+}
+/* line 17, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/flash.css.scss */
+header span.alert {
+  background-color: #cc0000;
+}
+
+/*  グレー系  */
+/*  シアン系  */
+/*  赤系  */
+/*  緑系  */
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+/* line 4, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 9, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+div#wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0;
+  padding-bottom: 48px;
+  background-color: #cccccc;
+}
+
+/* line 17, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+header {
+  padding: 6px;
+  background-color: #448888;
+  color: #fafafa;
+}
+/* line 21, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+header span.logo-mark {
+  font-weight: bold;
+}
+/* line 24, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+header a {
+  float: right;
+  color: #fafafa;
+}
+
+/* line 29, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #666666;
+  color: #fafafa;
+}
+/* line 35, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/layout.css.scss */
+footer p {
+  text-align: center;
+  padding: 6px;
+  margin: 0;
+}
+
+/*  グレー系  */
+/*  シアン系  */
+/*  赤系  */
+/*  緑系  */
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+/* line 6, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/sessions.css.scss */
+div#wrapper div#container div#login-form {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 4px #448888;
+  background-color: #fafafa;
+}
+/* line 15, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/sessions.css.scss */
+div#wrapper div#container h1 {
+  background-color: transparent;
+  color: #1a3333;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 23, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/sessions.css.scss */
+div#wrapper div#container form div {
+  padding: 10px;
+}
+/* line 25, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/sessions.css.scss */
+div#wrapper div#container form div label {
+  display: block;
+  padding: 6px 0;
+}
+/* line 29, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/sessions.css.scss */
+div#wrapper div#container form div input[type='text'], div#wrapper div#container form div input[type='password'] {
+  padding: 10px;
+  width: 360px;
+}
+/* line 33, /home/vagrant/tmp/baukis/app/assets/stylesheets/staff/sessions.css.scss */
+div#wrapper div#container form div input[type='submit'] {
+  padding: 10px 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

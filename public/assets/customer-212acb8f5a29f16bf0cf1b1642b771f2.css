@@ -1,0 +1,100 @@
+@charset "UTF-8";/* line 4, /home/vagrant/tmp/baukis/app/assets/stylesheets/shared/errors.css.scss */
+div#error {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 4px #666666;
+  background-color: lighter(#666666, 25%);
+  text-align: center;
+}
+/* line 12, /home/vagrant/tmp/baukis/app/assets/stylesheets/shared/errors.css.scss */
+div#error p.url {
+  font-family: monospace;
+}
+
+/*  グレー系  */
+/*  イエロー系  */
+
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+
+/*  グレー系  */
+/*  イエロー系  */
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+/* line 6, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/container.css.scss */
+div#wrapper div#container h1 {
+  margin: 0;
+  padding: 9px 6px;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #616200;
+  color: #eeeeee;
+}
+
+/*  グレー系  */
+/*  イエロー系  */
+/*  マージン、パディング  */
+/*  フォントサイズ  */
+/*  行の高さ  */
+/* line 4, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/layout.css.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 9, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/layout.css.scss */
+div#wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0;
+  padding-bottom: 48px;
+  background-color: #cccccc;
+}
+
+/* line 17, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/layout.css.scss */
+header {
+  padding: 6px;
+  background-color: #e1e100;
+  color: #fafafa;
+}
+/* line 21, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/layout.css.scss */
+header span.logo-mark {
+  font-weight: bold;
+}
+
+/* line 25, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/layout.css.scss */
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #666666;
+  color: #fafafa;
+}
+/* line 31, /home/vagrant/tmp/baukis/app/assets/stylesheets/customer/layout.css.scss */
+footer p {
+  text-align: center;
+  padding: 6px;
+  margin: 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
