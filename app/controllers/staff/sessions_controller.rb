@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class Staff::SessionsController < Staff::Base
   def new
     if current_staff_member
@@ -15,14 +16,18 @@ class Staff::SessionsController < Staff::Base
     end
     if Staff::Authenticator.new(staff_member).authenticate(@form.password)
       session[:staff_member_id] = staff_member.id
+      flash.notice = 'ログインしました。'
       redirect_to :staff_root
     else
+      @alert = Staff::Authenticator.new(staff_member).authentication_alert(@form.password)
+      flash.now.alert = @alert
       render action: 'new'
     end
   end
 
   def destroy
     session.delete(:staff_member_id)
+    flash.notice = 'ログアウトしました。'
     redirect_to :staff_root
   end
 end
