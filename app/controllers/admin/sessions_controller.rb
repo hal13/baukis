@@ -22,7 +22,7 @@ class Admin::SessionsController < Admin::Base
       redirect_to :admin_root
     else
       flash.now.alert = @authenticate.authentication_alert(@form.password)
-      render 'admin/sessions/new'
+      render :new
     end
   end
 
